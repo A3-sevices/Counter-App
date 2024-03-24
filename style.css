@@ -1,0 +1,66 @@
+body {
+    background: #ce98e7;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-app {
+    background-color: #834a9e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.counter-app:hover {
+    transform: scale(1.05);
+    transform: scale(1.2);
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.counterValue {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.btns {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3e1e4b;
+    border: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#reset-btn {
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #3e1e4b;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btns:hover , 
+#reset-btn:hover {
+    background-color: #ffffffaf;
+    color: #000;
+}
+
+.btns:hover {
+    font-size: 25px;
+}
